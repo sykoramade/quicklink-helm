@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { notFound } from 'next/navigation';
 import { createServerClient } from '@supabase/ssr';
 
 export async function GET(
@@ -35,10 +36,7 @@ export async function GET(
       .single();
 
     if (error || !link) {
-      return NextResponse.json(
-        { error: 'Link not found' },
-        { status: 404 }
-      );
+      notFound();
     }
 
     // Record the click asynchronously (fire and forget)
