@@ -1,0 +1,12 @@
+# Supabase local development configuration
+[auth]
+enable_signup = true
+enable_anonymous_signups = false
+
+[database]
+port = 5432
+host = "localhost"
+name = "postgres"
+
+[studio]
+port = 3000
