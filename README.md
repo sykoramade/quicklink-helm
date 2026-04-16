@@ -1,6 +1,18 @@
 # QuickLink - URL Shortener
 
+**Live URL:** https://quicklink-helm.vercel.app  
+**GitHub:** https://github.com/sykoramade/quicklink-helm
+
 A modern URL shortening service with analytics, custom slugs, and a clean dashboard. Built with Next.js 14, Supabase, and Tailwind CSS.
+
+## Test Account
+
+Use this pre-created account for evaluation:
+
+```
+Email:    test@quicklink-demo.com
+Password: QuickLink2026!
+```
 
 ## Features
 
